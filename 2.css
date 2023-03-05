@@ -1,0 +1,86 @@
+body, html {
+    background:#51ae73;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #222;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+    border-radius: 14px;
+    padding-bottom: 20px;
+    width: 320px;
+    
+    }
+    .display {
+    width: 100%;
+    height: 60px;
+    padding: 40px 0;
+    background:#222;
+    box-shadow:inset 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    }
+    .buttons {
+    padding: 20px 20px 0 20px;
+    }
+    .row {
+    width: 280px;
+    float: left;
+   }
+    input[type=button] {
+    width: 60px;
+    height: 60px;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.2);
+    padding: 0;
+    margin: 5px;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    line-height: 30px;
+    outline:none;
+    border-radius: 10px;
+    font-weight: 700;
+    color: #5E5858;
+    cursor: pointer; 
+    transition:0.1s;
+    }
+    input[type=button]:hover{
+    background:grey;
+    color:#000;
+    font-size:2.4rem;
+    }
+    
+    input[type=text] {
+    width: 270px;
+    height: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+    font-size:35px;
+    margin-left:18px;
+    color:#fff;
+    background:transparent;
+    padding-left:5%;
+    border-radius:10px;
+    outline:none;
+    border:none;
+    }
+    #equal-el,
+    #del{
+     height:60px;
+     color:#8cf139;
+     width:46%;
+     background-color:#333;
+     border-radius:15px;
+    }
+    
+    
+   .row .red{
+      background-color:#333;
+      color:#8cf139;
+    }
